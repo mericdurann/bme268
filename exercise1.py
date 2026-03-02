@@ -13,4 +13,11 @@ elif int(hours) > 40:
 
 print("You made", money, "dollars")
 
-
+x=12
+y=15 
+if(x<y) or (x<10):
+    print("1")
+elif(x<y) and (x<10):
+    print("2")
+else:
+    print("3")
